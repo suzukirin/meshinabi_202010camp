@@ -36,5 +36,6 @@
     </table>
     
     <a href="{{ action('RestaurantController@index') }}">戻る</a>    
+    {{-- コントローラーのアクション名 --}}
 </body>
 </html>

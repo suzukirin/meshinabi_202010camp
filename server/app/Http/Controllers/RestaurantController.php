@@ -12,7 +12,8 @@ class RestaurantController extends Controller
         $restaurants = Restaurant::all();
         return view('restaurants.index', compact('restaurants'));
     }
-
+      //緑モデル名
+      //compact関数？
     public function show($id)
     {
         $restaurant = Restaurant::find($id);
