@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(CategoryTableSeeder::class);
         $this->call(RestaurantTableSeeder::class);
+        $this->call(MenuSeeder::class);
     }
     // 順番関係ある 先にカテゴリーを選べるようにしないと働かない
 }
